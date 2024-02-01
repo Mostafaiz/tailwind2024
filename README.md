@@ -53,4 +53,4 @@ src/index.html
 
 #cointainer 
 
-![8](Screenshot 2024-02-01 200213.png).
+![8](https://raw.githubusercontent.com/Mostafaiz/tailwind2024/main/Screenshot%202024-02-01%20200213.png).
