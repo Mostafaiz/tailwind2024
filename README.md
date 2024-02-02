@@ -52,6 +52,7 @@ src/index.html
 
 
 #cointainer 
+
 ![8](https://raw.githubusercontent.com/Mostafaiz/tailwind2024/main/Screenshot%202024-02-01%20200213.png).
 
 to center a container 
@@ -76,6 +77,7 @@ module.exports = {
 ```
 
 for padding 
+
 tailwind.config.js
 ```
 /** @type {import('tailwindcss').Config} */
@@ -89,6 +91,7 @@ module.exports = {
 ```
 
 for each of container padding
+
 tailwind.config.js
 
 ```
@@ -108,6 +111,7 @@ module.exports = {
 };
 ```
 #width
+
 ![8](https://raw.githubusercontent.com/Mostafaiz/tailwind2024/main/Screenshot%202024-02-02%20185827.png).
 
 اگر یک سایز جدید بخواهیم به بالایی ها اضافه کنیم باید آن را در extend بنویسیم ، اگر خارج از extend بنویسیم ، فقط سایز جدید ما کار خواهد کرد ، سایز ها پیش فرض غیر فعال خواند شد . 
