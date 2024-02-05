@@ -130,3 +130,44 @@ module.exports = {
 </body>
 ```
 در کد بالا یک کانتینر داریم ، داخلش یک فلکس که گپ 4 داره و یک پدینگ 4 با چهار تا فلکس 1 
+
+
+
+```
+<div class="container h-full bg-gray-100">
+    <class class="flex gap-4 p-4 bg-green-200">
+        <div class=" bg-red-100">1</div>
+        <div class=" bg-green-500">2</div>
+        <div class=" bg-yellow-500">1</div>
+        <div class=" bg-green-800">4</div>
+    </class>
+    <class class="inline-flex gap-4 p-4 bg-green-200">
+            <div class=" bg-red-100">1</div>
+            <div class=" bg-green-500">2</div>
+            <div class=" bg-yellow-500">1</div>
+            <div class=" bg-green-800">4</div>
+    </class>
+</div>
+```
+
+در کد بالا خط اول فلکس که کامل در یک ردیف را اشغال می کند ، و بقیه کد را به پایین می دهد . اما کد دوم اینلاین فلکس ، در ردیف دوم به اندازه خودش فضا می گیرد
+
+
+
+```
+<div class="container h-full bg-gray-100">
+    <class class="flex gap-4 p-4 bg-green-200">
+        <div class="flex-1 bg-red-100">1</div>
+        <div class=" bg-green-500">2</div>
+        <div class=" bg-yellow-500">1</div>
+        <div class=" bg-green-800">4</div>
+    </class>
+    <class class="inline-flex gap-4 p-4 bg-green-200">
+            <div class="flex-1 bg-red-100">1</div>
+            <div class=" bg-green-500">2</div>
+            <div class=" bg-yellow-500">1</div>
+            <div class=" bg-green-800">4</div>
+    </class>
+</div>
+```
+در کد بالا به متن یک ، کلاس فلکس-1 دادیم که نتیجه را مشاهده می کنیم ، فلکس-1 در اینلاین فلکس کار نمی کند.
