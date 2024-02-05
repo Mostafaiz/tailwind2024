@@ -116,4 +116,16 @@ module.exports = {
 
 اگر یک سایز جدید بخواهیم به بالایی ها اضافه کنیم باید آن را در extend بنویسیم ، اگر خارج از extend بنویسیم ، فقط سایز جدید ما کار خواهد کرد ، سایز ها پیش فرض غیر فعال خواند شد . 
 
-
+#flex 
+```
+<body class="bg-gray-500">
+<div class="container h-full bg-gray-100">
+    <class class="flex gap-4 p-4 bg-green-200">
+        <div class="flex-1 bg-red-100">1</div>
+        <div class="flex-1 bg-green-500">2</div>
+        <div class="flex-1 bg-yellow-500">3</div>
+        <div class="flex-1 bg-green-800">4</div>
+    </class>
+</div>
+</body>
+```
