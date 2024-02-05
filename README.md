@@ -53,7 +53,7 @@ src/index.html
 
 #cointainer 
 
-![8](https://raw.githubusercontent.com/Mostafaiz/tailwind2024/main/Screenshot%202024-02-01%20200213.png).
+![8](https://raw.githubusercontent.com/Mostafaiz/tailwind2024/main/pic/Screenshot%202024-02-01%20200213.png).
 
 to center a container 
 ```
@@ -112,7 +112,7 @@ module.exports = {
 ```
 #width
 
-![8](https://raw.githubusercontent.com/Mostafaiz/tailwind2024/main/Screenshot%202024-02-02%20185827.png).
+![8](https://raw.githubusercontent.com/Mostafaiz/tailwind2024/main/pic/Screenshot%202024-02-02%20185827.png).
 
 اگر یک سایز جدید بخواهیم به بالایی ها اضافه کنیم باید آن را در extend بنویسیم ، اگر خارج از extend بنویسیم ، فقط سایز جدید ما کار خواهد کرد ، سایز ها پیش فرض غیر فعال خواند شد . 
 
@@ -151,6 +151,8 @@ module.exports = {
 ```
 
 در کد بالا خط اول فلکس که کامل در یک ردیف را اشغال می کند ، و بقیه کد را به پایین می دهد . اما کد دوم اینلاین فلکس ، در ردیف دوم به اندازه خودش فضا می گیرد
+![8](https://raw.githubusercontent.com/Mostafaiz/tailwind2024/main/pic/Screenshot%202024-02-05%20205829.png).
+
 
 
 
@@ -171,3 +173,5 @@ module.exports = {
 </div>
 ```
 در کد بالا به متن یک ، کلاس فلکس-1 دادیم که نتیجه را مشاهده می کنیم ، فلکس-1 در اینلاین فلکس کار نمی کند.
+![8](https://raw.githubusercontent.com/Mostafaiz/tailwind2024/main/pic/Screenshot%202024-02-05%20210114.png).
+
