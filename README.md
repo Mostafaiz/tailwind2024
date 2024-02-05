@@ -195,4 +195,4 @@ module.exports = {
 </div>
 ```
 گرید وظیفه تقسیم بندی ستون ها را انجام می دهد مثلا در یک گرید چند تا ستون داشته باشیم ، در پلتفرم های مختلف ، 
-i[8](https://raw.githubusercontent.com/Mostafaiz/tailwind2024/main/pic/Screenshot%202024-02-05%20235920.png).
+![8](https://raw.githubusercontent.com/Mostafaiz/tailwind2024/main/pic/Screenshot%202024-02-05%20235920.png).
