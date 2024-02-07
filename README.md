@@ -151,6 +151,7 @@ module.exports = {
 ```
 
 در کد بالا خط اول فلکس که کامل در یک ردیف را اشغال می کند ، و بقیه کد را به پایین می دهد . اما کد دوم اینلاین فلکس ، در ردیف دوم به اندازه خودش فضا می گیرد
+
 ![8](https://raw.githubusercontent.com/Mostafaiz/tailwind2024/main/pic/Screenshot%202024-02-05%20205829.png).
 
 
@@ -175,3 +176,23 @@ module.exports = {
 در کد بالا به متن یک ، کلاس فلکس-1 دادیم که نتیجه را مشاهده می کنیم ، فلکس-1 در اینلاین فلکس کار نمی کند.
 ![8](https://raw.githubusercontent.com/Mostafaiz/tailwind2024/main/pic/Screenshot%202024-02-05%20210114.png).
 
+
+#grid and inline-grid
+```
+<div class="container h-full bg-gray-100">
+    <class class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 p-4 bg-green-200">
+        <div class=" bg-red-100">1</div>
+        <div class=" bg-green-500">2</div>
+        <div class=" bg-yellow-500">1</div>
+        <div class=" bg-green-800">4</div>
+    </class>
+    <class class="inline-grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4  gap-4 p-4 bg-green-200">
+            <div class="flex-1 bg-red-100">1</div>
+            <div class=" bg-green-500">2</div>
+            <div class=" bg-yellow-500">1</div>
+            <div class=" bg-green-800">4</div>
+    </class>
+</div>
+```
+گرید وظیفه تقسیم بندی ستون ها را انجام می دهد مثلا در یک گرید چند تا ستون داشته باشیم ، در پلتفرم های مختلف ، 
+![8](https://raw.githubusercontent.com/Mostafaiz/tailwind2024/main/pic/Screenshot%202024-02-05%20235920.png).
