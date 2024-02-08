@@ -200,4 +200,4 @@ module.exports = {
 
 #ساخت الرت با الپین 
 
-![8](https://raw.githubusercontent.com/Mostafaiz/tailwind2024/main/pic/Screenshot 2024-02-08 112106.png).
+![8](https://raw.githubusercontent.com/Mostafaiz/tailwind2024/main/pic/Screenshot%202024-02-08%20112106.png).
